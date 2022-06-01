@@ -17,16 +17,6 @@ client_script {
     'client.lua'
 }
 
-server_script {
-    '@async/async.lua',
-    '@mysql-async/lib/MySQL.lua',
-    'config.lua',
-    'server/init/*.lua',
-    'server/lib/*.lua',
-    'server/*.lua',
-}
-
 shared_scripts {
-    'common.lua',
-    'debug.lua',
+    'config.lua',
 }
